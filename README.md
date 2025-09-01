@@ -1,12 +1,38 @@
-# React + Vite
+<h1>💬 Room Chat Application</h1>
+<h2>A real-time chat application where users can create rooms, join existing rooms, and exchange messages instantly. Built with React.js for the frontend and Java (Spring Boot) for the backend, this project demonstrates real-time communication, authentication, and a smooth chat experience.</h2>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+🔑 User Authentication – Secure login and registration
+💬 One-to-One Chat – Private messaging between users
+👥 Group Chat – Join or create chat rooms for discussions
+🌍 Global Chat – A common room where all users can chat together
+👻 Anonymous Chat – Chat without revealing identity
+📜 Message History – Store and fetch chat history
+🟢 Presence Indicators – Show online/offline status of users
 
-Currently, two official plugins are available:
+🛠️ Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Frontend
+React.js
+Tailwind CSS
+Axios
+WebSockets
 
-## Expanding the ESLint configuration
+Backend
+Java (Spring Boot)
+Spring Security (Authentication & Authorization)
+Spring JPA + Hibernate
+WebSockets for real-time communication
+MySQL (or any RDBMS)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Other Tools
+Postman (API Testing)
+Git & GitHub for version control
+
+🌟 Future Enhancements
+🔑 User Authentication – Secure login and registration
+💬 One-to-One Chat – Private messaging between users
+✅ File sharing in chat
+✅ Emoji & GIF support
+✅ Push notifications
+✅ Mobile app version (React Native / Flutter)
